@@ -24,8 +24,10 @@ flutter emulators --launch Pixel_4_XL_API_34
 flutter run
 
 
-To run on devices 
+To run on devices
+
 flutter devices
+
 flutter run –d chrome
 
 
