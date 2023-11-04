@@ -1,6 +1,6 @@
 # tasks_app
 
-A new Flutter project.
+Tasks App - A cross platform application built with Flutter and Back4App 
 
 ## Getting Started
 
