@@ -32,3 +32,9 @@ flutter run –d chrome
 
 
 
+flutter pub add parse_server_sdk_flutter (https://pub.dev/packages/parse_server_sdk_flutter/install)
+
+flutter pub get
+
+
+reference: https://www.back4app.com/docs/flutter/parse-sdk/data-objects/flutter-crud
