@@ -104,10 +104,72 @@
  **Step 3: Task List**
 
   Create a screen in your Flutter app to display a list of tasks. Implement a function to fetch tasks from Back4App using the Back4App API. Display the tasks in a list view with titles and descriptions.
+  
+  _Refer `Class TaskListScreen` in lib/main.dart_
 
   ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/756ea667-d960-43ce-a373-bb7dc45cade9)
 
 
+
+**Step 4: Task Creation**
+
+  Create a screen for adding new tasks. Implement functionality to create and save tasks to Back4App.Verify that newly created tasks appear in the task list.
+
+  _Refer `Class TaskCreationScreen` in lib/main.dart_
+
+
+
+
+**Step 5: Task Details**
+
+  Add a feature to view task details when a task is tapped in the task list.Display the title and description of the selected task.
+
+  _Refer `Class TaskDetailsScreen` in lib/main.dart_
+
+  ![task display](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/a94e4c5c-1916-4237-bec2-fa4cd7bf7704)
+
+
+
+
+ **Step 6: Bonus Features** 
+ 
+  a.) _Feature to edit and update existing tasks_
+
+   Refer `Class TaskUpdateScreen` in lib/main.dart
+
+   Before Update
+       
+   ![before update](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/4e253514-1921-4de6-8eb3-81419ebcb8b8)
+
+   After Update
+
+   ![after update](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/4e925f81-4350-4784-8050-a5812054a295)
+
+
+   _b.) Implement a feature for task deletion._
+
+   Refer `Future<void> deleteTask` in lib/main.dart
+
+   Before Delete
+
+   ![before delet](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/e3bde4a1-4bb9-4665-8c38-26c252270b69)
+
+   On Delete
+
+   ![during delete](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/be9a9c27-46ee-41da-ab28-04a4cb8756a3)
+
+   Post Delete
+
+   ![after delete](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/7a7a24a0-f9d2-4d73-a629-5530bae4e6d3)
+
+
+
+     
+
+
+  
+
+ 
 
 
 
