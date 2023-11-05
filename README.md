@@ -15,11 +15,12 @@
   ## **Step 1: Set Up Back4App**
   
   ### a.) _Sign up for a Back4App account and Login._
-      ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/f0ee092f-0a35-4ddc-8028-93011cc49c0a)
+  ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/f0ee092f-0a35-4ddc-8028-93011cc49c0a)
 
   ### _b.) Create a new Back4App app_
-    ![back4app_login](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/42467567-b8e1-40a2-a839-f0a91a602d9d)
-    ![back4app_baas](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/a5decb00-8ed1-4e16-bbd6-56865849d760)
+  ![back4app_login](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/42467567-b8e1-40a2-a839-f0a91a602d9d)
+    
+  ![back4app_baas](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/a5decb00-8ed1-4e16-bbd6-56865849d760)
 
 
   ### _c.) Create a class in Back4App named Task with columns title (String) and description (String)._
