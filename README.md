@@ -4,6 +4,8 @@
 
 **Assignment Description:** In this assignment, I have created a Flutter app that connects to Back4App, a Backend-as-a-Service (BaaS) platform, to manage tasks. 
 
+**Assignment Github Repository Link :**
+
 **Assignment Steps:**
 
   **Step 1: Set Up Back4App**
@@ -178,52 +180,67 @@
 
 
   **Step 7: Additional Features/Enhancements** 
+
+   -	**Color coding** - For Tasks with status as `todo`, those tasks are colored as `Red` and for Tasks with status as `complete`, those tasks are colored as `Green`
+
+   ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/8be705ed-1e9d-477b-a85e-205385d781b2)
+
+     
+   -	**Order of Tasks** -  The newly created tasks are appended at the last of the Todo tasks and the completed tasks are ordered on the basis of latest completed task at the top.
+
+   ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/34ee2bf0-c713-430f-802f-0e08bb570d98)
+
+   ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/3d3eb0d5-1fb2-4684-bc3e-98ee0cb57755)
+
+
+   -	**Refresh button** - Button to reload the tasks list
+
+   ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/b8ed7b4e-12e5-4662-aa65-9dbb523d742b)
+
+   -	**Status** - Added status information for each tasks and status gets toggled based in selected checkbox along with color change based on status
+
+   ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/c2e458fd-6834-458b-918d-6403c6cfcf6b)
+
+     
+   -	**Strick Off** - Todo to complete tasks gets stricken off
+
+  ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/048ee7c3-f6d0-471c-9a1b-c0da36dea2a1)
+
+
+
+
+**Additional Details:** 
+
+  a.) To Launch on emulator:
   
+     % flutter emulators --launch Pixel_4_XL_API_34
+     % flutter run
+
+   ![emulator](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/cc7823b5-57cb-4166-a51c-984895f87ea6)
+
+     
+
+   b.) To run on devices:
+   
+      % flutter devices
+      % flutter run –d chrome
+
+   ![chrome](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/8f3c486c-9658-4b76-ade6-06c40bcb3071)
 
 
-  
+   c.) To demonstrate Cross-Platformness of the aaplication:
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Launch on emulator:
-
-flutter emulators --launch Pixel_4_XL_API_34
-flutter run
-
-
-To run on devices
-
-flutter devices
-
-flutter run –d chrome
+   ![crossplatform](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/a1a2dd08-9fd9-42bc-a4ce-e84172e6c40a)
 
 
 
+--------------------------------------------------------------------------------------------------------------------
+**References:**
 
+- https://www.back4app.com/docs/flutter/parse-sdk/data-objects/flutter-crud
 
+- https://www.liquidweb.com/kb/how-to-install-and-configure-flutter-sdk-windows-10/
 
-reference: 
+- https://pub.dev/packages/parse_server_sdk_flutter/install
 
-https://www.back4app.com/docs/flutter/parse-sdk/data-objects/flutter-crud
-
-https://www.liquidweb.com/kb/how-to-install-and-configure-flutter-sdk-windows-10/
-
-https://pub.dev/packages/parse_server_sdk_flutter/install
-
-https://stackoverflow.com/questions/68236007/i-am-getting-error-cmdline-tools-component-is-missing-after-installing-flutter
+- https://stackoverflow.com/questions/68236007/i-am-getting-error-cmdline-tools-component-is-missing-after-installing-flutter
