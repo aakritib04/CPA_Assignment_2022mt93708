@@ -30,7 +30,7 @@
   
   ![back4app 6 columns added](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/c0844ce2-3173-42d6-89d3-245ecaffabd8)
 
-  Dasboard :
+  Dashboard :
   ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/9106b67d-304f-4c7f-9227-eb3f8d18256d)
 
 
@@ -38,28 +38,82 @@
 
     
 
+ **Step 2: Flutter Setup**
+ 
+ _a.) Download & install Flutter using : https://docs.flutter.dev/get-started/install/windows_
+ 
+ _b.) Update Path Variable to be able to use in CMD_
+ 
+ _c.) Confirm Installed Tools for Running Flutter_
+    ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/d2794f93-068a-4a6a-9305-8a305fdac0d4)
+
+ _d.) Download and install Android Studio using https://developer.android.com/studio/index.html_
+
+ _e.) Re-confirm Installed tools for flutter_
+   ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/156c6c4e-3090-41fe-a0ce-93111aa14e65)
+
+  _f.) To resolve issue of:_
+  
+   _i.) 'missing cmdline-tools'_ : open Android Studio and go to SDK Manager, switch to the SDK Tools tab and check Android SDK Command-line Tools (latest)
+      
+   ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/6e263467-494e-4770-918d-65c7eff5c62a)
+
+  _ii.) 'Android licenses'_ : execute  command `flutter doctor --android-licenses`
+  
+   ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/94c93f3f-e93e-42cf-8776-89478c0be1b6)
+
+
+  _g.) Re-confirm Installed tools for flutter - successful:_ 
+
+  ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/45abd250-d4b4-4fab-bc2d-3bd334ea1846)
+
+  _h.)Create a new Flutter project using commands:_
+  
+    % mkdir CPA_Flutter_Assignment
+    % cd CPA_Flutter_Assignment
+    % flutter create tasks_app
+   
+   ![setup 1](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/82f2c08d-1b58-4a52-be45-c431fd07f9e0)
+   ![setup 2](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/786acca1-3507-4ce9-b4f8-f49186bc8e1e)
+
+   _i.) Confirm Flutter setup:_
+
+     % flutter run
+
+   ![setup 3 flutter setup](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/e1cd717b-0bee-4aea-bd4a-34ca02c5bc6b)
+
+
+  j.) Add the required dependencies to pubspec.yaml file. Initialize Parse SDK and intl
+
+    % flutter pub add parse_server_sdk_flutter
+    % flutter pub get
+   ![setup 5 dependency](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/dee43565-9123-47f1-90ea-fa3ab349d6ef)
+
     
+    % flutter pub add intl
+    % flutter pub get
+    
+   ![setup 6 dependency](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/6940d6e6-c5c8-4392-9c04-043e67a35393)
+
+
+  
 
 
 
 
-![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/d2794f93-068a-4a6a-9305-8a305fdac0d4)
-
-Downloaded and installed android studio using : https://www.liquidweb.com/kb/how-to-install-and-configure-flutter-sdk-windows-10/
 
 
-![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/156c6c4e-3090-41fe-a0ce-93111aa14e65)
 
 
-Issue of missing cmdline-tools
-Resolved using:
-https://stackoverflow.com/questions/68236007/i-am-getting-error-cmdline-tools-component-is-missing-after-installing-flutter
 
-![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/6e263467-494e-4770-918d-65c7eff5c62a)
 
-![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/94c93f3f-e93e-42cf-8776-89478c0be1b6)
 
-![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/45abd250-d4b4-4fab-bc2d-3bd334ea1846)
+
+
+
+
+
+
 
 Launch on emulator:
 
@@ -75,9 +129,15 @@ flutter run –d chrome
 
 
 
-flutter pub add parse_server_sdk_flutter (https://pub.dev/packages/parse_server_sdk_flutter/install)
-
-flutter pub get
 
 
-reference: https://www.back4app.com/docs/flutter/parse-sdk/data-objects/flutter-crud
+
+reference: 
+
+https://www.back4app.com/docs/flutter/parse-sdk/data-objects/flutter-crud
+
+https://www.liquidweb.com/kb/how-to-install-and-configure-flutter-sdk-windows-10/
+
+https://pub.dev/packages/parse_server_sdk_flutter/install
+
+https://stackoverflow.com/questions/68236007/i-am-getting-error-cmdline-tools-component-is-missing-after-installing-flutter
