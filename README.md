@@ -33,6 +33,10 @@
   Dashboard :
   ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/9106b67d-304f-4c7f-9227-eb3f8d18256d)
 
+  Class Records:
+  ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/2e0a2be9-0604-41c8-9975-f36fc096dd75)
+
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -97,6 +101,12 @@
 
 
   
+ **Step 3: Task List**
+
+  Create a screen in your Flutter app to display a list of tasks. Implement a function to fetch tasks from Back4App using the Back4App API. Display the tasks in a list view with titles and descriptions.
+
+  ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/756ea667-d960-43ce-a373-bb7dc45cade9)
+
 
 
 
