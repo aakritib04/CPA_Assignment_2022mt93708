@@ -118,6 +118,17 @@
   _Refer `Class TaskCreationScreen` in lib/main.dart_
 
 
+  ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/30b96a0e-37a2-4cf6-89ea-653ea3c0ffb1)
+
+  Task Creation:
+
+  ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/bd09f327-82fc-4afa-ac13-cbd54053834a)
+
+  Post task creation:
+
+  ![image](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/e951c7b7-8482-4309-9adc-9ee49dcb8745)
+
+
 
 
 **Step 5: Task Details**
@@ -127,6 +138,7 @@
   _Refer `Class TaskDetailsScreen` in lib/main.dart_
 
   ![task display](https://github.com/aakritib04/CPA_Assignment_2022mt93708/assets/146528030/a94e4c5c-1916-4237-bec2-fa4cd7bf7704)
+
 
 
 
@@ -164,7 +176,9 @@
 
 
 
-     
+
+  **Step 7: Additional Features/Enhancements** 
+  
 
 
   
